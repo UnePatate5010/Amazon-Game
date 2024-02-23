@@ -21,6 +21,7 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
   - `graph.c` : contains differents board (classic board, window board, etc)
   - `disp.c` : display function
 - `tst` : all test files (mostly visual because easier :dumb:, but still some assert)
+- `Makefile` : See below
 
 
 ## How to Makefile
