@@ -8,3 +8,4 @@ alltests
 install
 *.so
 server
+*.gcda

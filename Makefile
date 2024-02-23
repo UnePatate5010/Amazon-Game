@@ -5,7 +5,7 @@ LDFLAGS = -lm -lgsl -lgslcblas -ldl -lgcov -L$(GSL_PATH)/lib -L$(GSL_PATH)/lib64
 
 all: build test
 
-build: client server 
+build: client server install
 
 server: disp.o graph.o rules.o server.o
 	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
