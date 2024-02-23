@@ -1,0 +1,5 @@
+*~
+src/*~
+*.o
+install_dir
+install_dir/*

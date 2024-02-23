@@ -99,16 +99,20 @@ tst_player.o: tst/tst_player.c src/client/common_player.h src/dir.h src/graph.h 
 	$(CC) $(CFLAGS) -Isrc/client -o $@ -c $<  
 
 install: server client alltests
-	mkdir -p install
-	cp ./alltests install
-	cp The_OutsiderV2.so The_Watcher.so The_insider.so install
-	./install/alltests
+	mkdir -p ./install_dir
+	cp ./alltests install_dir
+	cp ./server install_dir
+	cp The_OutsiderV2.so The_Watcher.so The_insider.so install_dir
 
-run:
-	./install/server -m 10 -d ./The_insider.so ./The_OutsiderV2.so
+run: build
+	./install_dir/server -m 10 -d ./The_insider.so ./The_OutsiderV2.so
+
+runtests: test
+	./install_dir/alltests
+
 
 clean:
-	@rm -f *~ src/*~ *.o install/*.so install/alltests install/server *.gcno *.so ./alltests ./server *.gcda
+	@rm -f *~ src/*~ *.o install_dir/*.so install_dir/alltests install_dir/server *.gcno *.so ./alltests ./server *.gcda ./install
 
 .PHONY: client install test clean
 
