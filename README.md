@@ -20,4 +20,5 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
   - `.h` files : declare differents utilitary functions, enums...
   - `graph.c` : contains differents board (classic board, window board, etc)
   - `disp.c` : display function
-- tst : all test files (mostly visual because easier :dumb:
+- `tst` : all test files (mostly visual because easier :dumb:, but still some assert)
+
