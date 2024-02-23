@@ -45,6 +45,9 @@ Players are directly specified as parameter (example : `./server -m 10 -t c ./pl
 ## Screenshot
 ![screenshot](screenshot.png)
 
+Moving queen is in green, her former position in pink and the position where her arrow landed is in blue.
+Positions are numbered left to right, up to down.
+
 
 ## Authors
 
