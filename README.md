@@ -30,6 +30,7 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
 - `make run` : compile only the main files and run the project (edit the makefile to run different players with differents parameter or in command line execute ./install_dir/server -flag...)
 - `make test` : compile the project and tests files
 - `make runtests` : compile the project, tests files and run tests
+- `make clean` : delete all compiled files
 
 When running, there are multiple parameters that can be modified through flags :
 - `-m` : specifies the dimensions of the board (example : `-m 10` for a 10 by 10 board)
