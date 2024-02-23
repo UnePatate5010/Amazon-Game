@@ -30,3 +30,13 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
 - `make run` : compile only the main files and run the project (edit the makefile to run different players with differents parameter or in command line execute ./install_dir/server -flag...)
 - `make test` : compile the project and tests files
 - `make runtests` : compile the project, tests files and run tests
+
+## Authors
+
+[PotatOwO](https://github.com/UnePatate5010)
+
+[Larwive](https://github.com/Larwive)
+
+[GeekBoyBoss](https://github.com/GeeKboy2)
+
+Pyrhanox
