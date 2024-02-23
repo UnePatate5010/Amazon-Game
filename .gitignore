@@ -3,3 +3,8 @@ src/*~
 *.o
 install_dir
 install_dir/*
+alltests
+*.gcno
+install
+*.so
+server
