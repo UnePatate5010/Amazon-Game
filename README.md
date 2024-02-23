@@ -31,6 +31,16 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
 - `make test` : compile the project and tests files
 - `make runtests` : compile the project, tests files and run tests
 
+When running, there are multiple parameters that can be modified through flags :
+- `-m` : specifies the dimensions of the board (example : `-m 10` for a 10 by 10 board)
+- `-t` : specifies the shape of the board
+  - `-t c` : square shape
+  - `-t d` : donut shape
+  - `-t t` : clover shape
+  - `-t 8` : eight shape
+
+Players are directly specified as parameter (example : `./server -m 10 -t c ./player1.so ./player2.so`).
+
 ## Authors
 
 [PotatOwO](https://github.com/UnePatate5010)
