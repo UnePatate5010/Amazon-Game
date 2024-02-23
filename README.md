@@ -49,4 +49,6 @@ Players are directly specified as parameter (example : `./server -m 10 -t c ./pl
 
 [GeekBoyBoss](https://github.com/GeeKboy2)
 
+[Pyrhanox](https://github.com/Pyrhanox)
+
 Pyrhanox
