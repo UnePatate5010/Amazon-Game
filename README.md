@@ -41,6 +41,11 @@ When running, there are multiple parameters that can be modified through flags :
 
 Players are directly specified as parameter (example : `./server -m 10 -t c ./player1.so ./player2.so`).
 
+
+## Screenshot
+![screenshot](screenshot.png)
+
+
 ## Authors
 
 [PotatOwO](https://github.com/UnePatate5010)
