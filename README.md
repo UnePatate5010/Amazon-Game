@@ -9,8 +9,8 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
 
 ## Files
 
-- `install_dir` : Contains several files post comilation such as exe file, players libraries...
-- `src`
+- `/install_dir` : Contains several files post comilation such as exe file, players libraries...
+- `/src`
   - `client`
     - `common_player.c` : common file for all player &rarr; basic functions (movement, position checks, ...) and personal variables (copy of board, positions of pieces...)
     - `player.c` : player's file &rarr; implements a specific strategy
@@ -20,7 +20,7 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
   - `.h` files : declare differents utilitary functions, enums...
   - `graph.c` : contains differents board (classic board, window board, etc)
   - `disp.c` : display function
-- `tst` : all test files (mostly visual because easier :dumb:, but still some assert)
+- `/tst` : all test files (mostly visual because easier :dumb:, but still some assert)
 - `Makefile` : See below
 
 
