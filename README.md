@@ -29,7 +29,7 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
 This project use a Makefile to compile and run executables. Run the following commands in the repository root depending on your needs.
 - `make` : compile the whole project
 - `make build` : compile only the main files (no tests)
-- `make run` : compile only the main files and run the project (edit the makefile to run different players with differents parameter or in command line execute ./install_dir/server -flag...)
+- `make run` : compile only the main files and run the project (edit the makefile to run different players with different parameters or in command line execute `./install_dir/server -flag...`)
 - `make test` : compile the project and tests files
 - `make runtests` : compile the project, tests files and run tests
 - `make clean` : delete all compiled files
