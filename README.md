@@ -34,7 +34,7 @@ This project use a Makefile to compile and run executables. Run the following co
 - `make runtests` : compile the project, tests files and run tests
 - `make clean` : delete all compiled files
 
-When running, there are multiple parameters that can be modified through flags :
+When running manually, there are multiple parameters that can be modified through flags :
 - `-m` : specifies the dimensions of the board (example : `-m 10` for a 10 by 10 board)
 - `-t` : specifies the shape of the board
   - `-t c` : square shape
