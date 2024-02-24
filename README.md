@@ -26,7 +26,7 @@ We ranked 4th with a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax) 
 
 ## How to Makefile
 
-This project use a Makefile to compile and run executables.
+This project use a Makefile to compile and run executables. Run the following commands in the repository root depending on your needs.
 - `make` : compile the whole project
 - `make build` : compile only the main files (no tests)
 - `make run` : compile only the main files and run the project (edit the makefile to run different players with differents parameter or in command line execute ./install_dir/server -flag...)
